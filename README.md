@@ -6,9 +6,9 @@ Para ello tenemos que hacer un update y luego ya podremos instalar el isc-dhcp-s
 - ``` sudo apt-get install isc-dhcp-server```
 
 ## 2. Editar para una configuración básica /etc/dhcp/dhcpd.conf
-- Abriremos el archivo de configuración con sudo nano para poder hacer los cambios necesarios
+Abriremos el archivo de configuración con sudo nano para poder hacer los cambios necesarios
 - ```sudo nano /etc/dhcp/dhcpd.conf```
-- Modificaremos el archivo dhcpd.conf como queremos:
+Modificaremos el archivo dhcpd.conf como queremos:
 - ![Imagen del archivo](imagenes/dhcpd.conf.png)
 
 ## 3. Editar para configurar la interfaz de red /etc/Default/isc-dchp-server
