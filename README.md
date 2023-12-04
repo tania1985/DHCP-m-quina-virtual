@@ -1,6 +1,7 @@
 # DHCP-maquina-virtual
 
 ## 1. Instalar paquete isc-dhcp-server
+Para ello tenemos que hacer un update y luego ya podremos instalar el isc-dhcp-server
 - ``` sudo apt-get update```
 - ``` sudo apt-get install isc-dhcp-server```
 
