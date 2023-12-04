@@ -12,6 +12,9 @@ Modificaremos el archivo dhcpd.conf como queremos:
 - ![Imagen del archivo](imagenes/dhcpd.conf.png)
 
 ## 3. Editar para configurar la interfaz de red /etc/Default/isc-dchp-server
+Para ella abriremos el /etc/default 
+- ```En INTERFACESv4="enp0s8"```
+- ![Imagen de Default](imagen/Default.png)
 ## 4. Declarar una subnet 172.16.0.0/16
 ## 5. Arranca el servicio con systemctl
 ## 6. Comprueba el servicio con "systemctl status"
